@@ -172,3 +172,5 @@ jobs:
           - Connecting regressions to specific changes is extremely valuable.
           - Link issues with #number so they're clickable.
     environment: gt-review
+env:
+  ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
